@@ -1,0 +1,56 @@
+Steps to Run the Django Project: Yaad
+====================================
+
+Follow these steps to set up and run the Django project locally.
+
+Step 1: Create a Database
+--------------------------
+Create a new database named:
+
+    yaad
+
+Note:
+- If you're using SQLite (default), this step is automatic.
+- If you're using MySQL or PostgreSQL, make sure to create the database manually
+  and update the DATABASES section in settings.py accordingly.
+
+Step 2: Make Migrations
+------------------------
+Generate migration files based on your models:
+
+    python manage.py makemigrations
+
+Step 3: Apply Migrations
+-------------------------
+Apply the generated migrations to your database:
+
+    python manage.py migrate
+
+Step 4: Create Superuser (Optional)
+-----------------------------------
+To access the Django admin panel, create a superuser:
+
+    python manage.py createsuperuser
+
+Then follow the prompts to enter a username, email, and password.
+
+Step 5: Run the Development Server
+----------------------------------
+Start the Django development server:
+
+    python manage.py runserver
+
+Then open your browser and go to:
+
+    http://127.0.0.1:8000/
+
+Optional: Other Useful Commands
+-------------------------------
+- Collect static files (for production use):
+
+      python manage.py collectstatic
+
+- Check for errors:
+
+      python manage.py check
+
