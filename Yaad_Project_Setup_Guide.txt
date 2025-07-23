@@ -7,7 +7,7 @@ Step 1: Create a Database
 --------------------------
 Create a new database named:
 
-    yaad
+    GreenNest
 
 Note:
 - If you're using SQLite (default), this step is automatic.
