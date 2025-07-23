@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'yaad.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "yaad",
+        "NAME": "GreenNest",
         "USER": "root",
         "PASSWORD": "",
         "HOST": "127.0.0.1",
